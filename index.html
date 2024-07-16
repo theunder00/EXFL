@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldo S.Q | Desarrollo Web</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/lobito.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    
+  <style>
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .gallery img {
+        margin: 10px;
+        width: 30%;
+    }
+
+    #iconos{
+      transition: transform 0.3s ease;
+      font-size: 50px;
+    }
+
+
+  #iconos:hover{
+    opacity: 0.9;
+    transform: translateY(-10);
+  }
+
+
+</style>
+</head>
+<body>
+<main>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse p-5" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#" >Contacto</a>
+                  </li>
+                </ul>
+                <img src="img/lobo.jpg" alt="" style="height: 130px;margin-left:1000px ;">
+              </div>
+             
+            </div>
+          </nav>
+
+
+
+        <!--Yo-->
+          <section id="about" class="container mt-5" >
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <img  src="img/foto de aldo.enc" class="img-fluid rounded-circle" alt="Mi Foto">
+              </div>
+              <div class="col-md-20 text-center">
+                <h1>Hola,soy Aldo S.Q</h1>
+                <p>Desarrollo sitios web y escribo articulos sobre programación</p>
+              </div>
+            </div>
+          </section>
+
+          <!--titulo-->
+
+          <div class="container mt-5 bg-dark" style="height: 400px;">
+            <div class="row justify-content-center ">
+              <div class="col-md-8 text-center ">
+                <h1 style="color: white;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Conoces a Aldo S.Q</h1>
+                <p style="text-align: justify;color: white;font-size: 20px;font-weight: 600;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta fugiat minima rerum, sequi, dolorem nostrum velit corporis exercitationem ducimus officiis excepturi expedita culpa, nobis dignissimos assumenda odit. Nam optio illo perspiciatis doloremque accusantium laudantium blanditiis non dolorem eos provident laboriosam nisi quibusdam libero odio sunt, tenetur excepturi ducimus odit vitae, dolor nihil fugiat voluptate ratione suscipit! Eos eveniet quisquam ipsum delectus, atque consectetur magni reiciendis ipsam minus velit? Impedit neque unde ratione sapiente nemo praesentium numquam sit dignissimos aspernatur eligendi ipsum cupiditate fugit consectetur a sint assumenda totam id, itaque maxime. Quod cupiditate consequuntur obcaecati vitae sunt laudantium repudiandae cum?</p>
+              </div>
+            </div>
+          </div>
+
+
+        
+
+    <!-- Portafolio Cards -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="img/PC.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Web</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;">HTML</a>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;">CSS</a>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;">Javascript</a>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;">React</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="img/PC.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Artículos</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;">Escribir</a>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;">Editar</a>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;">Blogs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="img/PC.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Estudiante</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;" >freeCodeCamp</a>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;" >Desarrollo Web</a>
+                        <a href="#" class="btn btn-primary" style="font-size: 12px;" >Python</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Galería de Imágenes -->
+    <div class="container">
+        <h1 style="text-align: center;font-size: 50px;font-weight: 800;">Mis proyectos recientes</h1>
+        <p style="text-align: center;font-weight: 500;">Estos son algunos proyectos que he creado recientemente...</p>
+        <div class="gallery p-5">
+            <img src="img/pc-1.jpg" alt="Galería Imagen 1">
+            <img src="img/pc-2.jpg" alt="Galería Imagen 2">
+            <img src="img/pc-3.jpeg" alt="Galería Imagen 3">
+            <img src="img/pc-4.jpg" alt="Galería Imagen 4">
+            <img src="img/pc-5.jpg" alt="Galería Imagen 5">
+            <img src="img/pc-6.jpeg" alt="Galería Imagen 6">
+        </div>
+
+        <div class="container mt-5 p-1">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center">
+                <button type="button" class="btn btn-primary">Ver más proyectos  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg></button>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+       <!--Articulos-->
+
+       <div class=" list-group container p-5" style="width: 700px;margin: auto;">
+        <h1 style="text-align: center;font-size: 50px;font-weight: 800;" class="p-5">Articulos</h1>
+        <a href="#" style="color: #000000;font-weight: 600;" class="list-group-item list-group-item-action  bg-body-tertiary" aria-current="true">
+        Más recientes</a>
+        <a href="#" class="list-group-item list-group-item-action">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</a>
+        <a href="#" class="list-group-item list-group-item-action">Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos</a>
+        <a href="#" class="list-group-item list-group-item-action">Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps</a>
+        <a class="list-group-item list-group-item-action sidabled" aria-disabled="true">Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas</a>
+        <a class="list-group-item list-group-item-action sidabled" aria-disabled="true">¿Para qué se usa Python? 10+ usos del lenguaje de programación Python</a>
+      
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+              <button type="button" class="btn btn-primary">Ver más proyectos <svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16 bg-dark">
+                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+              </svg> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+ 
+
+
+
+
+      <div class="row justify-content-center mt-5 mb-5">
+        <div class="col-md-8 text-center">
+            <h2 id="scrollspyHeading4" style="font-size: 50px;font-weight: 800;">Testimonios</h2>
+            <p>Estos son algunos testimonios de mis clientes.</p>
+            <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner mb-4">
+                <div class="carousel-item active">
+                  <div class="container text-center">
+                    <img class="testimonio-imagen rounded-circle" src="https://media.istockphoto.com/id/1096419400/es/foto/mujer-bonita-joven-sonriendo-mientras-se%C3%B1ala-con-el-dedo-%C3%ADndice-al-blanco-camiseta-copyspace.jpg?s=612x612&w=0&k=20&c=K42nrU_KjEFCpPtFkemzoRwys7Lqxrzg1hBhXYC_hYw=" alt="foto 1">
+                  <!-- <i class="bi bi-person-circle"></i> -->  
+                    <p class="testimonio-texto">Excelente tu asesoramiento, brindando ideas y alternativas creativas, que mostraron de mejor manera lo que yo quería decir.</p>
+                    <p class="testimonio-texto">Tu trabajo fue muy profesional y expeditivo, con trato siempre cordial y respetuoso. Es por ello que te recomiendo y deseo lo mejor 
+                      para tu empresa. Saludos , y espero nos visites  , en <strong> EL PARAISO</strong>.</p>
+      
+                    <div class="testimonio-info">
+                      <b style="font-size: 20px;" class="cliente">Elissa Palacios</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container text-center">
+                      <img class="testimonio-imagen rounded-circle" src="https://img.freepik.com/foto-gratis/chico-guapo-seguro-posando-contra-pared-blanca_176420-32936.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721001600&semt=sph" alt="foto 2">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra ante quis sapien placerat blandit. Mauris gravida sem ligula. Etiam eu risus in ipsum malesuada feugiat.</p>
+                    <div class="testimonio-info">
+                      <p class="cargo">Gerente de Recursos Humanos</p>
+                      <b style="font-size: 20px;" class="cliente">Franco vasquez</b>
+                    </div>
+                  </div>  
+                </div>
+                <!--
+                <div class="carousel-item">
+                  <div class="container">
+                    <i class="bi bi-person-circle"></i>
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra ante quis sapien placerat blandit. Mauris gravida sem ligula. Etiam eu risus in ipsum malesuada feugiat.</p>
+                    <div class="testimonio-info">
+                      <p class="cliente">Gabriel</p>
+                      <p class="cargo">Gerente de Proyectos en Desarrollo Web</p>
+                    </div>
+                  </div>         
+                 </div>
+                 -->
+      
+      
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="bg-dark text-light text-center py-3">
+    <div class="text-center">
+      <section id="contacto2" class="contacto seccion-oscura bg-dark">
+          <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+              <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                  ¡Hablemos!
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                  Contáctame para iniciar tu proyecto de desarrollo web y haremos realidad tu visión.
+                </div> 
+                <div class="col-12 col-md-4 ">
+                 
+                    
+                  <a href="mailto:info@ingenieriayproyectosweb.com">
+                    <button type="button">
+                        Contacto
+                        <i class="bi bi-envelope-check-fill"></i>
+                    </button>
+                  </a>
+                </div>                        
+              </div>
+            </div>
+          </div>
+        </section>
+        <h4 id="scrollspyHeading5"><img src="img/lobo.jpg" class="small-image" alt="icono" style="border-radius: 50%;height: 100px;"></h4>
+        <p>Aprendo y creo todos los días.<br>
+            Creemos un proyecto juntos.</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://facebook.com/ingenieria.y.proyectosweb/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/leonardo-caceres-91957974/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/ingenieria.y.proyectosweb/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>   
+              <a href="mailto:info@ingenieriayproyectosweb.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+              </a>     
+            </div>
+        <p class="mt-3 text-secondary"></p>
+    </div>
+    <p>© 2024 Aldo S.Q Todos los derechos reservados.</p>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</main>
+</body>
+</html>
